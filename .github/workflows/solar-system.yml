@@ -17,10 +17,7 @@ jobs:
 
         - name: list the files
           run: ls
-
-        - name: read the files
-          run: cat README.md
-
+          
         - name: Checkout Repository
           uses: actions/checkout@v4
 
